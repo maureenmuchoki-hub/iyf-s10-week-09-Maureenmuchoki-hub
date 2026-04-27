@@ -1,4 +1,10 @@
+import { useEffect } from 'react'
+
 function Profile() {
+  useEffect(() => {
+    document.title = 'My Profile - MtaaShare'
+  }, [])
+
   return (
     <>
       <h2>My Profile</h2>
