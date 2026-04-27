@@ -94,6 +94,20 @@ src/
 - **Data fetching errors** — Network errors needed proper try/catch handling
 - **localStorage with images** — Image file objects can't be stored in localStorage so we store only text data for My Items
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Community Page
+![Community Page](screenshots/community.png)
+
+### My Items Page
+![My Items Page](screenshots/myitems.png)
+
+### Profile Page
+![Profile Page](screenshots/profile.png)
+
 ## Live Demo
 
 Coming soon 
