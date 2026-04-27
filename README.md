@@ -10,6 +10,10 @@ MtaaShare (Swahili for "Neighbourhood Share") is an advanced React application b
 
 The app allows Nairobi neighbours to borrow and lend everyday items — from drills and ladders to baby strollers and event seats.
 
+The app connects two sides:
+- **People who need to borrow** items they don't own
+- **People who have items** they're willing to lend
+
 ## Technologies Used
 - React 18
 - Vite
