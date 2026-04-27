@@ -1,19 +1,24 @@
-function Header({ activePage, setActivePage }) {
+import { NavLink } from 'react-router-dom'
+
+function Header() {
   return (
     <div>
       <header>
         <nav>
           <span>🏘️ MtaaShare Hub</span>
           <div>
-            <a href="#" onClick={(e) => { e.preventDefault(); setActivePage('home') }}>
+            <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
               Home
-            </a>
-            <a href="#" onClick={(e) => { e.preventDefault(); setActivePage('myitems') }}>
+            </NavLink>
+            <NavLink to="/myitems" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
               My Items
-            </a>
-            <a href="#" onClick={(e) => { e.preventDefault(); setActivePage('profile') }}>
+            </NavLink>
+            <NavLink to="/community" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+              Community
+            </NavLink>
+            <NavLink to="/profile" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
               Profile
-            </a>
+            </NavLink>
             <span>🔔</span>
           </div>
         </nav>
