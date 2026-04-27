@@ -35,6 +35,7 @@ The app allows Nairobi neighbours to borrow and lend everyday items — from dri
 
 ## Project Structure
 
+```
 src/
 ├── components/
 │   ├── Layout/
@@ -60,6 +61,7 @@ src/
 │   └── NotFound.jsx
 ├── App.jsx
 └── index.css
+```
 
 ## How to Run
 
